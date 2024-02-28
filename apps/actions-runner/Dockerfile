@@ -22,6 +22,26 @@ RUN \
   gpg-agent \
   jo \
   jq \
+  lib32z1 \
+  libc++-dev\
+  libc++abi-dev \
+  libc6-dev \
+  libcurl4 \
+  libgbm-dev \
+  libgconf-2-4 \
+  libgsl-dev \
+  libgtk-3-0 \
+  libmagic-dev \
+  libmagickcore-dev \
+  libmagickwand-dev \
+  libsecret-1-dev \
+  libsqlite3-dev \
+  libssl-dev \
+  libtool \
+  libunwind8 \
+  libxkbfile-dev \
+  libxss1 \
+  libyaml-dev \
   moreutils \
   software-properties-common \
   unrar \
