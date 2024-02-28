@@ -29,6 +29,15 @@ RUN \
   zip \
   && rm -rf /var/lib/apt/lists/*
 
+# Common Ruby dependencies
+RUN apt-get update && apt-get install --no-install-recommends -y \
+  google-chrome-stable \
+  postgresql-client \
+  redis \
+  libvips \
+  libpq-dev \
+  && rm -rf /var/lib/apt/lists/*
+
 ENV RUNNER_TOOL_CACHE=/opt/hostedtoolcache
 RUN mkdir ${RUNNER_TOOL_CACHE} \
   && chgrp docker ${RUNNER_TOOL_CACHE} \
