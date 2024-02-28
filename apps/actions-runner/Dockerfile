@@ -20,8 +20,8 @@ RUN \
   git \
   jo \
   jq \
-  libgmp \
-  libyaml-0 \
+  # libgmp \
+  # libyaml-0 \
   moreutils \
   unrar \
   unzip \
