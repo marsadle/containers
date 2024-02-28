@@ -14,20 +14,28 @@ RUN \
   apt-get update && apt-get upgrade -y \
   && \
   apt-get install -y --no-install-recommends \
+  apt-transport-https \
   ca-certificates \
   curl \
   gcc \
   git \
+  gpg-agent \
   jo \
   jq \
-  # libgmp \
-  # libyaml-0 \
   moreutils \
+  software-properties-common \
   unrar \
   unzip \
   wget \
   zip \
   && rm -rf /var/lib/apt/lists/*
+
+# Install additional repositories
+RUN wget https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb && \
+  dpkg -i packages-microsoft-prod.deb && \
+  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \
+  echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list && \
+  apt-get update -y
 
 # Common Ruby dependencies
 RUN apt-get update && apt-get install --no-install-recommends -y \
