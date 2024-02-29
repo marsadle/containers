@@ -29,6 +29,7 @@ def load_metadata_file(file_path):
     return None
 
 def get_latest_image(name):
+    print(f"https://api.github.com/users/{repo_owner}/packages/container/{name}/versions",)
     r = requests.get(
         f"https://api.github.com/users/{repo_owner}/packages/container/{name}/versions",
         headers={
