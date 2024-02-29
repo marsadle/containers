@@ -37,7 +37,7 @@ def get_latest_image(name):
             "Authorization": "token " + os.environ["GITHUB_TOKEN"]
         },
     )
-    print(f"Fetching all packages: {dr.status_code} {dr.text}")
+    print(f"Fetching all packages({dr.request.url}): {dr.status_code} {dr.text}")
     r = requests.get(
         f"https://api.github.com/users/{repo_owner}/packages/container/{name}/versions",
         headers={
