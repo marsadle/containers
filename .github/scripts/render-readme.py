@@ -30,7 +30,8 @@ def load_metadata_file(file_path):
 
 def get_latest_image(name):
     dr = requests.get(
-        f"https://api.github.com/users/{repo_owner}/packages?package_type=container",
+        f"https://api.github.com/users/{repo_owner}/packages",
+        params={"package_type": "container"},
         headers={
             "Accept": "application/vnd.github.v3+json",
             "Authorization": "token " + os.environ["GITHUB_TOKEN"]
