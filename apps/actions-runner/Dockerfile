@@ -16,8 +16,8 @@ RUN \
   apt-get install -y --no-install-recommends \
   acl apt-transport-https aria2 autoconf automake binutils bison brotli bzip2 \
   ca-certificates coreutils curl dbus dnsutils dpkg dpkg-dev fakeroot file \
-  findutils flex fonts-noto-color-emoji ftp g++ gcc git gnupg2 gpg-agent \
-  haveged imagemagick iproute2 iputils-ping jo jq lib32z1 libc++-dev \
+  findutils flex fonts-noto-color-emoji ftp g++ gcc gettext-base git gnupg2 \
+  gpg-agent haveged imagemagick iproute2 iputils-ping jo jq lib32z1 libc++-dev \
   libc++abi-dev libc6-dev libcurl4 libgbm-dev libgconf-2-4 libgsl-dev \
   libgtk-3-0 libmagic-dev libmagickcore-dev libmagickwand-dev libsecret-1-dev \
   libsqlite3-dev libssl-dev libtool libunwind8 libxkbfile-dev libxss1 \
