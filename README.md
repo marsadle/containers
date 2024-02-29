@@ -14,3 +14,5 @@ Each image will be built with a `latest` tag, along with tags specific to it's v
 Container | Channel | Image | Latest Tags
 --- | --- | --- | ---
 [actions-runner]() | stable | ghcr.io/marsadle/actions-runner |
+[home-assistant]() | stable | ghcr.io/marsadle/home-assistant |
+[postgres-init]() | stable | ghcr.io/marsadle/postgres-init |
