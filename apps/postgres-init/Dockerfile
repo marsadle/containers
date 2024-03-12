@@ -1,4 +1,4 @@
-FROM ghcr.io/marsadle/alpine:latest@sha256:4f4e770e85212657818638e0ba1e5d0bee757f4fa25a217a5a565a3c463a851e
+FROM ghcr.io/marsadle/alpine:latest@sha256:2c783aaf23905a694b7a410f25350a246322a167ffbcf2c54e04397c1aade314
 
 ARG TARGETPLATFORM
 ARG VERSION
