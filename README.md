@@ -17,7 +17,7 @@ Container | Channel | Image | Latest Tags
 --- | --- | --- | ---
 [actions-runner](https://github.com/marsadle/containers/pkgs/container/actions-runner) | stable | ghcr.io/marsadle/actions-runner |![2](https://img.shields.io/badge/2-blue) ![2.319](https://img.shields.io/badge/2.319-blue) ![2.319.1](https://img.shields.io/badge/2.319.1-blue) ![latest](https://img.shields.io/badge/latest-green)
 [home-assistant]() | stable | ghcr.io/marsadle/home-assistant |
-[postgres-init](https://github.com/marsadle/containers/pkgs/container/postgres-init) | stable | ghcr.io/marsadle/postgres-init |![16](https://img.shields.io/badge/16-blue) ![16.3](https://img.shields.io/badge/16.3-blue) ![latest](https://img.shields.io/badge/latest-green)
+[postgres-init](https://github.com/marsadle/containers/pkgs/container/postgres-init) | stable | ghcr.io/marsadle/postgres-init |![16](https://img.shields.io/badge/16-blue) ![16.4](https://img.shields.io/badge/16.4-blue) ![latest](https://img.shields.io/badge/latest-green)
 
 
 # Acknowledgements
