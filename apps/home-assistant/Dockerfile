@@ -1,4 +1,4 @@
-FROM ghcr.io/marsadle/alpine:latest@sha256:2c783aaf23905a694b7a410f25350a246322a167ffbcf2c54e04397c1aade314
+FROM ghcr.io/marsadle/alpine:latest@sha256:d4bc2cc9e3a15b1007367d9f812411bfaa575bc571fe7c455bfde09685ac78f4
 
 # https://github.com/linuxserver/docker-homeassistant
 # https://github.com/home-assistant/docker
